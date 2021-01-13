@@ -6,9 +6,11 @@ ruby '2.6.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use sqlserver as the database for Active Record
+
+gem 'tiny_tds'
+
 gem 'activerecord-sqlserver-adapter', '~> 6.0'
 
-gem 'tiny_tds', '~> 2.1'
 
 # graficas
 gem 'chartkick', '~> 3.3'
